@@ -1,0 +1,43 @@
+/* Image Gallery container */
+.image-gallery {
+  background-color: #fff;
+  padding: 20px;
+}
+
+/* Image rows */
+.image-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+/* Individual image container */
+.image {
+  width: calc(33.333% - 20px); /* Adjust as needed for layout with margin */
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Image styles */
+.image img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Image info styles */
+.image-info {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  opacity: 0.8;
+  text-align: center;
+}
+
+/* Text styles */
+.image-info p {
+  margin: 5px;
+}

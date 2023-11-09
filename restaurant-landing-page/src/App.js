@@ -3,6 +3,8 @@ import './App.css';
 import Navbar from './Components/Navbar';
 import SecondPage from './Components/SecondPage';
 import Third from './Components/Third'
+import ImageGallery from './Components/ImageGallery';
+import Testimonials from './Components/Testimonials';
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
      <Navbar/>
      <SecondPage/>
      <Third/>
+     <ImageGallery/>
+     <Testimonials/>
     </div>
   );
 }
