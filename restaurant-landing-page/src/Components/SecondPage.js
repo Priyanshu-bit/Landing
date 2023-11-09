@@ -13,7 +13,7 @@ const SecondPage = () => {
         </p>
       </div>
       <div className="image-container">
-        <img src="pic2.jpg" alt="Image" />
+        <img src="2nd.jpg" alt="Image" />
       </div>
     </div>
   );

@@ -1,10 +1,12 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Navbar from './Components/Navbar';
 import SecondPage from './Components/SecondPage';
 import Third from './Components/Third'
 import ImageGallery from './Components/ImageGallery';
 import Testimonials from './Components/Testimonials';
+import NewsEvents from './Components/NewsEvents';
+import ReservationContact from './Components/Reservation';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
      <Third/>
      <ImageGallery/>
      <Testimonials/>
+     <NewsEvents/>
+     <ReservationContact/>
     </div>
   );
 }
